@@ -1,0 +1,224 @@
+{
+    "products": [
+        {
+            "productName": "Laptop Pro X",
+            "productDescription": "High-performance laptop with 16GB RAM and 512GB SSD.",
+            "productImage": "laptop_pro_x.jpg",
+            "originalPrice": 1500,
+            "discountPrice": 1300,
+            "sellingPrice": 1200,
+            "quantity": 25,
+            "uom": "piece",
+            "hsnCode": "84713000"
+        },
+        {
+            "productName": "Smartphone Ultra",
+            "productDescription": "Flagship smartphone with 108MP camera and 5G connectivity.",
+            "productImage": "smartphone_ultra.jpg",
+            "originalPrice": 1000,
+            "discountPrice": 900,
+            "sellingPrice": 850,
+            "quantity": 50,
+            "uom": "piece",
+            "hsnCode": "85171200"
+        },
+        {
+            "productName": "Wireless Earbuds",
+            "productDescription": "Noise-cancelling wireless earbuds with long battery life.",
+            "productImage": "wireless_earbuds.jpg",
+            "originalPrice": 200,
+            "discountPrice": 180,
+            "sellingPrice": 160,
+            "quantity": 100,
+            "uom": "pair",
+            "hsnCode": "85183000"
+        },
+        {
+            "productName": "Smartwatch Max",
+            "productDescription": "Advanced smartwatch with fitness tracking and heart rate monitoring.",
+            "productImage": "smartwatch_max.jpg",
+            "originalPrice": 300,
+            "discountPrice": 270,
+            "sellingPrice": 250,
+            "quantity": 40,
+            "uom": "piece",
+            "hsnCode": "85176290"
+        },
+        {
+            "productName": "Bluetooth Speaker",
+            "productDescription": "Portable Bluetooth speaker with 360° surround sound.",
+            "productImage": "bluetooth_speaker.jpg",
+            "originalPrice": 150,
+            "discountPrice": 130,
+            "sellingPrice": 120,
+            "quantity": 75,
+            "uom": "piece",
+            "hsnCode": "85182200"
+        },
+        {
+            "productName": "Gaming Console X",
+            "productDescription": "Next-gen gaming console with 1TB storage and 4K support.",
+            "productImage": "gaming_console_x.jpg",
+            "originalPrice": 600,
+            "discountPrice": 550,
+            "sellingPrice": 500,
+            "quantity": 30,
+            "uom": "piece",
+            "hsnCode": "95045000"
+        },
+        {
+            "productName": "4K Ultra HD TV",
+            "productDescription": "55-inch 4K Ultra HD Smart TV with HDR and streaming services.",
+            "productImage": "4k_ultra_hd_tv.jpg",
+            "originalPrice": 800,
+            "discountPrice": 750,
+            "sellingPrice": 700,
+            "quantity": 20,
+            "uom": "piece",
+            "hsnCode": "85287200"
+        },
+        {
+            "productName": "Wireless Keyboard",
+            "productDescription": "Compact wireless keyboard with backlighting and ergonomic design.",
+            "productImage": "wireless_keyboard.jpg",
+            "originalPrice": 100,
+            "discountPrice": 90,
+            "sellingPrice": 80,
+            "quantity": 60,
+            "uom": "piece",
+            "hsnCode": "84716060"
+        },
+        {
+            "productName": "Mechanical Gaming Mouse",
+            "productDescription": "RGB mechanical gaming mouse with programmable buttons.",
+            "productImage": "gaming_mouse.jpg",
+            "originalPrice": 75,
+            "discountPrice": 70,
+            "sellingPrice": 65,
+            "quantity": 100,
+            "uom": "piece",
+            "hsnCode": "84716050"
+        },
+        {
+            "productName": "External Hard Drive 1TB",
+            "productDescription": "Portable external hard drive with 1TB storage capacity.",
+            "productImage": "external_hard_drive.jpg",
+            "originalPrice": 120,
+            "discountPrice": 110,
+            "sellingPrice": 100,
+            "quantity": 80,
+            "uom": "piece",
+            "hsnCode": "84717020"
+        },
+        {
+            "productName": "Smart Home Hub",
+            "productDescription": "Voice-activated smart home hub with device integration.",
+            "productImage": "smart_home_hub.jpg",
+            "originalPrice": 250,
+            "discountPrice": 230,
+            "sellingPrice": 210,
+            "quantity": 45,
+            "uom": "piece",
+            "hsnCode": "85176290"
+        },
+        {
+            "productName": "Robot Vacuum Cleaner",
+            "productDescription": "Automatic robot vacuum cleaner with smart navigation.",
+            "productImage": "robot_vacuum_cleaner.jpg",
+            "originalPrice": 400,
+            "discountPrice": 350,
+            "sellingPrice": 320,
+            "quantity": 25,
+            "uom": "piece",
+            "hsnCode": "85098000"
+        },
+        {
+            "productName": "Action Camera Pro",
+            "productDescription": "4K waterproof action camera with wide-angle lens.",
+            "productImage": "action_camera_pro.jpg",
+            "originalPrice": 350,
+            "discountPrice": 320,
+            "sellingPrice": 300,
+            "quantity": 60,
+            "uom": "piece",
+            "hsnCode": "85258090"
+        },
+        {
+            "productName": "Gaming Headset",
+            "productDescription": "Over-ear gaming headset with noise-cancelling microphone.",
+            "productImage": "gaming_headset.jpg",
+            "originalPrice": 120,
+            "discountPrice": 110,
+            "sellingPrice": 100,
+            "quantity": 90,
+            "uom": "piece",
+            "hsnCode": "85183000"
+        },
+        {
+            "productName": "Smart Light Bulb",
+            "productDescription": "Wi-Fi enabled smart light bulb with color-changing features.",
+            "productImage": "smart_light_bulb.jpg",
+            "originalPrice": 40,
+            "discountPrice": 35,
+            "sellingPrice": 30,
+            "quantity": 200,
+            "uom": "piece",
+            "hsnCode": "85395000"
+        },
+        {
+            "productName": "Noise-Cancelling Headphones",
+            "productDescription": "Wireless over-ear noise-cancelling headphones.",
+            "productImage": "noise_cancelling_headphones.jpg",
+            "originalPrice": 300,
+            "discountPrice": 280,
+            "sellingPrice": 260,
+            "quantity": 50,
+            "uom": "piece",
+            "hsnCode": "85183000"
+        },
+        {
+            "productName": "Fitness Tracker",
+            "productDescription": "Fitness tracker with heart rate and sleep monitoring.",
+            "productImage": "fitness_tracker.jpg",
+            "originalPrice": 100,
+            "discountPrice": 90,
+            "sellingPrice": 85,
+            "quantity": 100,
+            "uom": "piece",
+            "hsnCode": "85176290"
+        },
+        {
+            "productName": "Electric Toothbrush",
+            "productDescription": "Rechargeable electric toothbrush with multiple cleaning modes.",
+            "productImage": "electric_toothbrush.jpg",
+            "originalPrice": 75,
+            "discountPrice": 70,
+            "sellingPrice": 65,
+            "quantity": 150,
+            "uom": "piece",
+            "hsnCode": "85098000"
+        },
+        {
+            "productName": "Drone Camera",
+            "productDescription": "High-resolution drone with 4K camera and GPS.",
+            "productImage": "drone_camera.jpg",
+            "originalPrice": 800,
+            "discountPrice": 750,
+            "sellingPrice": 720,
+            "quantity": 30,
+            "uom": "piece",
+            "hsnCode": "88022000"
+        },
+        {
+            "productName": "Laptop Stand",
+            "productDescription": "Adjustable ergonomic laptop stand with cooling fan.",
+            "productImage": "laptop_stand.jpg",
+            "originalPrice": 50,
+            "discountPrice": 45,
+            "sellingPrice": 40,
+            "quantity": 100,
+            "uom": "piece",
+            "hsnCode": "84733020"
+        }
+    ]
+}
