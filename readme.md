@@ -29,7 +29,7 @@ Before running the project, make sure you have the following installed:
 4. **Run the development server:**
 
    ```bash
-   npm run dev
+   npm start
    ```
 
    The backend API will be available at `http://localhost:30001`.

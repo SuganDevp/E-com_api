@@ -31,25 +31,20 @@ class CartService {
     static addItemToCart(userId, hsnCode, quantity) {
         return __awaiter(this, void 0, void 0, function* () {
             try {
-                // Ensure userId is a valid ObjectId
                 const userObjectId = new mongoose_1.Types.ObjectId(userId);
-                // Find the user's cart
                 let cart = yield Cart_1.CartModel.findOne({ userId: userObjectId });
-                // If cart does not exist, create a new one
                 if (!cart) {
                     cart = new Cart_1.CartModel({ userId: userObjectId, items: [] });
                 }
-                // Check if the item already exists in the cart
                 const existingItem = cart.items.find(item => item.productId === hsnCode);
                 if (existingItem) {
-                    existingItem.quantity += quantity; // Update quantity
+                    existingItem.quantity += quantity;
                 }
                 else {
-                    cart.items.push({ productId: hsnCode, quantity }); // Add new item
+                    cart.items.push({ productId: hsnCode, quantity });
                 }
-                // Save the cart to the database
                 yield cart.save();
-                return cart; // Returning the updated cart
+                return cart;
             }
             catch (error) {
                 console.error('Error adding item to cart:', error);
@@ -90,27 +85,22 @@ class CartService {
     static syncCart(userId, cartItems) {
         return __awaiter(this, void 0, void 0, function* () {
             try {
-                // Ensure userId is a valid ObjectId
                 const userObjectId = new mongoose_1.Types.ObjectId(userId);
-                // Find the user's cart
                 let cart = yield Cart_1.CartModel.findOne({ userId: userObjectId });
-                // If cart does not exist, create a new one
                 if (!cart) {
                     cart = new Cart_1.CartModel({ userId: userObjectId, items: [] });
                 }
-                // Sync items: update existing items or add new ones
                 cartItems.forEach(item => {
                     const existingItem = cart.items.find(i => i.productId === item.hsnCode);
                     if (existingItem) {
-                        existingItem.quantity += item.quantity; // Update quantity
+                        existingItem.quantity += item.quantity;
                     }
                     else {
-                        cart.items.push({ productId: item.hsnCode, quantity: item.quantity }); // Add new item
+                        cart.items.push({ productId: item.hsnCode, quantity: item.quantity });
                     }
                 });
-                // Save the cart to the database
                 yield cart.save();
-                return cart; // Returning the updated cart
+                return cart;
             }
             catch (error) {
                 console.error('Error syncing cart:', error);
